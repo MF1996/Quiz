@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+			
+			<title>  Logo Quiz   </title>
+			<link rel="stylesheet" type="text/css" href="Quiz.css">
+	
+</head>
+
+<!-- onload cahcer les question quiz 2 .....7 -->
+<body onload="hide()">
+
+    <header>   <h2>Land of Quiz</h2> </header>
+
+
+
+    <div id="Q1" class="Q1"> <!--id Q1 pour manipuler js pour display le cas utlisataire passe au Quiz prochain -->
+		<div class="q1">  <!-- q1 class Q1  style css -->
+	        <!--Question -->
+			<h3>Quelle est nom de se logo </h3>
+        		
+  
+        			
+        			<img src="image1.jpg">  <!-- iamge  1 logo-->
+              			<ul>
+                    		
+                    		<div onclick="valide1()"> <!-- function in js pour valider 1-->
+                    			<!--Reponse 1 de Q1-->
+                    			<li class="A">  <h4>Pringles</h4>  </li>
+                    			<!--image indique reponse correct ou non -->
+                       			<img id="rep1" class="answ1" src="checked.png"  width="25" height="25 " alt="good"> 
+                   			
+                   			</div>
+                     						
+                     		<div onclick="valide2()"> <!-- function in js pour valider 2-->
+							    <!--Reponse 2 de Q1-->
+								<li class="B" > <h4>  Chupa Chips </h4> </li>
+								<!--image indique reponse correct ou non -->
+                         		<img id="rep2" class="answ2" src="wrong.png"  width="25" height="25 " alt="good" >
+							
+							</div>
+                    		  
+                    		<div  onclick="valide3()">
+                    	    
+                    	    	<li class="C"> <h4>  Croky       </h4>      </li>
+                        		<img id="rep3" class="answ3"  src="wrong.png" width="25" height="25 " alt="good"   > 
+                    		
+                    		</div>
+
+                		</ul>
+       	    <input type="submit" class="mark" id="mark" value="Question suivant" onclick="next1()">
+        </div>
+    </div>
+	
+	<div id="Q2" class="Q2">
+		<div class="q2"> 
+			     <!--Question -->
+			   	<h3>Quelle est nom de se logo </h3>
+               
+                
+               			<img src="image2.png"> <!-- iamge  2 logo-->
+							
+							<ul>
+                				<div onclick="valide2()">  <!-- function in js pour valider 2-->
+                				 	
+                				 	<li class="A" > <h4>skema</h4> </li> 
+                				 	<img id="rep21" class="answ2" src="wrong.png"  width="25" height="25 " alt="good"> 
+                				
+                				</div>
+                    							
+                    			<div onclick="valide1()">   <!-- function in js pour valider 1-->
+                    				
+                    				<li class="B" > <h4>michelin</h4></li> 
+                    				<img id="rep11" class="answ1" src="checked.png"  width="25" height="25 " alt="good" > 
+                    				
+                    			</div>
+                    			
+                    			<div onclick="valide3()">  <!-- function in js pour valider 3-->
+                    				
+                    				<li class="C" > <h4>  Dunlop</h4>   </li> 
+                    				<img id="rep31" class="answ3"  src="wrong.png" width="25" height="25 " alt="good"   > 
+                    
+                    			</div>
+                			</ul>
+            <input type="submit" class="mark" id="mark2" value="Question suivant" onclick="next2()">
+         </div>
+	</div>
+	
+	<div id="Q3" class="Q3">
+		<div class="q3">
+			  <!--Question -->
+			<h3>Quelle est nom de se logo </h3>
+  
+
+               		<img src="image3.jpg" class="img"> <!-- iamge  3 logo-->
+            
+              			<ul>
+            
+                 			<div onclick="valide2()"> <!-- function in js pour valider 2-->
+                 	 			
+                 	 			<li class="A" ><h4>Hollywood</h4></li>
+                 	 			<img id="rep211" class="answ1" src="wrong.png"  width="25" height="25 " alt="good"> 
+                 	 					
+                 	 		</div>
+                    		
+                    		<div onclick="valide1()">  <!-- function in js pour valider 1-->
+                     			
+                     			<li class="B" > <h4>MGM </h4></li>
+                     			<img id="rep111" class="answ2" src="checked.png"  width="25" height="25 " alt="good" > 
+                     				
+                     		</div>
+                    			
+                    		<div onclick="valide3()">  <!-- function in js pour valider 3-->
+                    			
+                    			<li class="C" > <h4>  Bolywood       </h4>      </li>
+                    			<img id="rep311" class="answ3"  src="wrong.png" width="25" height="25 " alt="good"   > 
+                			
+                			</div>
+            			
+            			</ul>
+			<input type="submit" class="mark" id="mark3" value="Question suivant" onclick="next3()">
+       	</div>
+	</div>
+
+	<div id="Q4" class="Q4">
+		    <div class="q4">
+			    <!--Question -->
+			   <h3>Quelle est nom de se logo </h3>
+              	 
+              	 	
+               		<img src="image4.jpg" class="img"> <!-- iamge  4 logo-->
+              			
+              			<ul>
+                			<div onclick="valide1()"> <!-- function in js pour valider 1-->
+                	 		
+                	 			<li class="A" ><h4>pinterest</h4></li>
+                	 			<img  id="rep1111" class="answ1" src="checked.png"  width="25" height="25 " alt="good">
+                	  	
+                	  		</div>
+                    						
+                    		<div onclick="valide2()">  <!-- function in js pour valider 2-->
+                    		
+                    			<li class="B" > <h4>  NBA </h4></li>
+                    			<img id="rep2111" class="answ2" src="wrong.png"  width="25" height="25 " alt="good" > 
+                    			
+                    		</div>
+                    			
+
+                    		<div onclick="valide3()">  <!-- function in js pour valider 3-->
+                    		
+                    			<li class="C" > <h4>Samsung</h4>      </li>
+                   		 		<img id="rep3111" class="answ3"  src="wrong.png" width="25" height="25 " alt="good"   > 
+                    	
+                    		</div>
+                		</ul>
+            <input type="submit" class="mark" id="mark4" value="Question suivant" onclick="next4()">
+        </div>
+	</div>
+
+	<div id="Q5" class="Q5">
+		<div class="q5">
+	          <!--Question -->
+			<h3>Quelle est nom de se logo </h3>
+    
+    
+              		 <img src="image5.jpg">  <!-- iamge  5 logo-->
+             			<ul>
+                			<div onclick="valide3()">  <!-- function in js pour valider 3-->
+                	 		
+                	 			<li class="A" ><h4>Pizzaiolo</h4></li>
+                	 			<img  id="rep31111" class="answ1" src="wrong.png"  width="25" height="25 " alt="good"> 
+                	 					
+                	 		</div>
+                    						
+                    		<div onclick="valide2()">  <!-- function in js pour valider 2-->
+                     			
+                     			<li class="B" > <h4> Lacoste</h4></li>
+                     			<img id="rep21111" class="answ2" src="wrong.png"  width="25" height="25 " alt="good" > 
+                     				
+                     		</div>
+                    			
+                    		<div onclick="valide1()">  <!-- function in js pour valider 1-->
+                     			
+                     			<li class="C" > <h4>PizzaHut</h4>      </li>
+                     			<img id="rep11111" class="answ3"  src="checked.png" width="25" height="25 " alt="good"   > 
+                    		
+                    		</div>
+                		</ul>
+            <input type="submit" class="mark" id="mark5" value="Question suivant" onclick="next5()">
+        </div>
+	</div>
+	
+	<div  id="Q6" class="Q6">
+		<div class="q6">
+	          <!--Question -->
+			<h3>Quelle est nom de se logo </h3>
+    
+               	 <img src="image6.png"> <!-- iamge  6 logo-->
+    
+               		<ul>    
+                		<div onclick="valide2()">  <!-- function in js pour valider 2-->
+                	 		
+                	 		<li class="A" ><h4>Motorola</h4></li>
+                			<img  id="rep211111" class="answ1" src="wrong.png"  width="25" height="25 " alt="good"> 
+                		
+                		</div>
+                    					
+                    	<div onclick="valide1()"> <!-- function in js pour valider 1-->
+                     					
+                     		<li class="B" > <h4>vodafone </h4></li>
+                     		<img id="rep111111" class="answ2" src="checked.png"  width="25" height="25 " alt="good" >
+                      				
+                      	</div>
+                    			
+                    	<div onclick="valide3()">  <!-- function in js pour valider 3-->
+                    		
+                    		<li class="C" > <h4>wikoo</h4>      </li>
+                    		<img id="rep311111" class="answ3"  src="wrong.png" width="25" height="25 " alt="good"   > 
+                		
+                		</div>
+            		</ul>
+			<input type="submit" class="mark" id="mark6" value="Question suivant" onclick="next6()">
+	 	</div>
+	</div>
+
+	<div id="Q7" class="Q7">
+		<div class="q7">
+			  <!--Question -->
+			 <h3 id="h3">Quelle est nom de se logo </h3>
+            
+            
+                	<img  id="image7" src="image7.jpg"> <!-- iamge  7 logo-->
+             			
+             			<ul>
+                			<div onclick="valide1()">  <!-- function in js pour valider 1-->
+                				
+                				<li class="A" ><h4 id="correct">redhut</h4></li>
+                				<img id="rep1111111" class="answ1" src="checked.png"  width="25" height="25 " alt="good">
+                	 		
+                	 		</div>
+                    						
+                    		<div onclick="valide2()"> <!-- function in js pour valider 2-->
+                     						
+                     			<li class="B" > <h4 id="incorrect">kali lunix</h4></li>
+                     			<img  id="rep2111111" class="answ2" src="wrong.png"  width="25" height="25 " alt="good" >
+                      		
+                      		</div>
+                    			
+                    		<div onclick="valide3()"> <!-- function in js pour valider 3-->
+                    			
+                    			<li class="C"  id="hide"> <h4>  Ubuntu</h4>      </li>
+                				<img id="rep3111111" class="answ3"  src="wrong.png" width="25" height="25 " alt="good"   >
+            		
+            				</div>
+        				</ul>
+			<input type="submit" class="mark" id="mark7" value="Question suivant" onclick="next7()">
+		</div>
+	</div>
+
+	<footer>
+        <ul >
+	      	  <li class="li">   <img src="facebook-logo-button.png"><a href=""> Faecbook </a> </li>
+    	    	<li class="li"> <img src="gmail-email-envelope.png"><a href=""> GMail    </a> </li>
+        	  <li class="li">   <img src="twitter.png"             ><a href=""> Twitter  </a> </li> 
+        </ul> 
+	</footer>
+          
+          <script type="text/javascript" src="Quiz.js"> </script>
+
+
+
+
+
+    	</body>
+
+
+</html>
